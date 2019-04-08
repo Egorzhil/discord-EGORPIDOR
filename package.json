@@ -1,0 +1,17 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "discord bot",
+  "main": "server.js",
+  "dependencies": {
+    "discord-eco": "0.0.10",
+    "discord.js": "^11.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Egorzhil_",
+  "license": "UNLICENSED"
+}
