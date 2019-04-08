@@ -9,14 +9,14 @@ var commanda = 'КОММАНДА БОТА: '
 var date = new Date();
 var time = "["+date.getHours()+':'+date.getMinutes()+':'+date.getSeconds()+"] ";
 
-client.login('NDEwNTE0MDQwMTEzMjAxMTYy.DVuQtA.F2SDydM8FpYM4Cj587ZWPco4y5c');
+client.login('secret');
 
 //запуск сервера
 
 client.on('ready', () => {
     console.log(time + log + 'ботище запустился');
     client.user.setActivity('Егора')
-    const hooker = new Discord.WebhookClient('421705619624427521', 'o9C3e3mjbBBq50YZll2pbq0D0-aHQ3oXTh6h4ub4In3c1YtU-DVIqFiZNumn_9YdsMhq');
+    const hooker = new Discord.WebhookClient('secret', 'secret');
     hooker.send('ОСНОВНОЙ БОТ ЗАПУСТИЛСЯ, ПИНГУЙ');
 }); 
 
